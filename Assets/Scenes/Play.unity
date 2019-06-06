@@ -486,7 +486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 720147b48caac71469923f6cbce362d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iD: 0
+  id: 0
   type: 
   isFlyer: 0
   smoke: {fileID: 598103084}
@@ -498,11 +498,12 @@ MonoBehaviour:
   maxSpeed: 0
   shieldRegen: 0
   weight: 0
-  movementType: 
+  movementType: 0
   movementTarget: {x: 0, y: 0, z: 0}
   path: []
   currentPathTarget: 0
   distanceTolerance: 0
+  speed: 0.05
 --- !u!1 &598103084
 GameObject:
   m_ObjectHideFlags: 0
